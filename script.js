@@ -4,6 +4,6 @@ document.querySelector ('.mudarTextoBotao').addEventListener('click', function()
 });
 
 document.querySelector ('.destacarBotao').addEventListener('click', function() {
-    const paragrafo = document.querySelector('.titulo');
+    const titulo = document.querySelector('.titulo');
     titulo.classList.add('destaque'); 
 });
